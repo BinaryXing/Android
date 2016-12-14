@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerPadding="10dp"
+            android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerPadding="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_year_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cb_year_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YearList"/>
+
+            <EditText
+                android:id="@+id/et_year_list_start_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="起始年"/>
+
+            <EditText
+                android:id="@+id/et_year_list_year_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="年数"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_month_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cb_month_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MonthList"/>
+
+            <EditText
+                android:id="@+id/et_month_list_start_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="起始年"/>
+
+            <EditText
+                android:id="@+id/et_month_list_start_month"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="起始月"/>
+
+            <EditText
+                android:id="@+id/et_month_list_month_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="月数"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_week"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/cb_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SingleWeek"/>
+
+            <EditText
+                android:id="@+id/et_week_in_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="年"/>
+
+            <EditText
+                android:id="@+id/et_week_in_month"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="月"/>
+
+            <EditText
+                android:id="@+id/et_week_in_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="日"/>
+            <EditText
+                android:id="@+id/et_week_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="周"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="确定"/>
+    </LinearLayout>
+
+</ScrollView>

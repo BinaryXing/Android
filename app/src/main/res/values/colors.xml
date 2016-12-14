@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_primary" >#ff333333</color>
+    <color name="common_secondary" >#ff666666</color>
+    <color name="common_hint" >#ffaaaaaa</color>
+    <color name="common_disable" >#ffcccccc</color>
+    <color name="common_green">#ff2ebd59</color>
+    <color name="common_red">#ffff5028</color>
+    <color name="common_orange" >#ffff6815</color>
+</resources>
