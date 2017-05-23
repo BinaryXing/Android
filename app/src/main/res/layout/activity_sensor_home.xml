@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_sensor_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="Android手机传感器介绍"/>
+
+    <TextView
+        android:id="@+id/tv_accelerometer_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="加速度"/>
+
+    <TextView
+        android:id="@+id/tv_gravity_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="重力加速度"/>
+
+    <TextView
+        android:id="@+id/tv_magnetic_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="指南针"/>
+
+    <TextView
+        android:id="@+id/tv_light_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="光线感应"/>
+
+    <TextView
+        android:id="@+id/tv_proximity_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="距离感应"/>
+
+    <TextView
+        android:id="@+id/tv_environment_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="周边环境（大气压／温度／相对湿度）"/>
+
+    <TextView
+        android:id="@+id/tv_step_sensor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:paddingLeft="20dp"
+        android:gravity="center_vertical"
+        android:text="计步器"/>
+
+</LinearLayout>

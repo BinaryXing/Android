@@ -19,6 +19,16 @@
             </intent-filter>
         </activity>
         <activity android:name=".demo.activity.AnimationHomeActivity" />
+        <activity android:name=".app.hardware.sensor.activity.SensorHomeActivity" />
+        <activity android:name=".app.hardware.sensor.activity.SensorIntroActivity" />
+        <activity android:name=".app.hardware.sensor.activity.AccelerometerSensorActivity"/>
+        <activity android:name=".app.hardware.sensor.activity.GravitySensorActivity"/>
+        <activity android:name=".app.hardware.sensor.activity.MagneticSensorActivity"/>
+        <activity android:name=".app.hardware.sensor.activity.OrientationSensorActivity"/>
+        <activity android:name=".app.hardware.sensor.activity.LightSensorActivity"/>
+        <activity android:name=".app.hardware.sensor.activity.ProximitySensorActivity"/>
+        <activity android:name=".app.hardware.sensor.activity.EnvironmentSensorActivity"/>
+        <activity android:name=".app.hardware.sensor.activity.StepSensorActivity"/>
     </application>
 
 </manifest>

@@ -13,13 +13,17 @@ import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.TextView;
 
-//import com.xing.android.demo.CalendarHomeDemoActivity;
+import com.xing.android.calendar.CalendarTool;
+import com.xing.android.calendar.model.DayCell;
 import com.xing.android.common.ui.CommonBaseAdapter;
 import com.xing.android.demo.CalendarHomeDemoActivity;
 import com.xing.android.demo.activity.AnimationHomeActivity;
+import com.xing.android.app.hardware.sensor.activity.SensorHomeActivity;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import okhttp3.OkHttpClient;
 
 public class HomeActivity extends Activity {
 
@@ -67,6 +71,7 @@ public class HomeActivity extends Activity {
         List<Topic> list = new ArrayList<Topic>();
         list.add(new Topic("动画", "包括补间动画,帧动画,属性动画,Activity跳转动画,5.0之后的动画", AnimationHomeActivity.class));
         list.add(new Topic("日历", "包括单选,多选,连选,多个连选, 混合模式", CalendarHomeDemoActivity.class));
+        list.add(new Topic("传感器", "各类手机传感器介绍，以及Demo", SensorHomeActivity.class));
         mTopicAdapter.setData(list);
     }
 

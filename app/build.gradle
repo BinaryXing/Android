@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion '24.0.2'
+    compileSdkVersion 14
+    buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId "com.xing.android"
         minSdkVersion 14
@@ -28,4 +28,6 @@ dependencies {
     compile project(':Calendar')
     compile project(':Common')
     compile project(':Animation')
+    compile 'com.squareup.okhttp3:okhttp:3.6.0'
+    compile 'com.squareup.okio:okio:1.11.0'
 }
